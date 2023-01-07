@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: lightslategrey;
+    background-size: cover;    
+    /* background-image:url("back_ground") no-repeat; */
+}
+
+#container{
+    height: 60vh;
+    width: 50vh;
+    border-radius: 1.0625em;
+    margin: 7.5em;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    box-shadow: 7px 7px 60px #000;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h1.txt{
+    padding: 64px 0px 8px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.txt1{
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: antiquewhite;
+}
+
+h3.txt2{
+    display: flex;
+    justify-content: center;
+    padding: 26px 0px 16px 0px;
+}
+
+.txt1 input{
+    display: block;
+    width: 20em;
+    height: 3em;
+    text-align: center;
+    font-size: medium;
+    box-shadow: 7px 7px 60px #000;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    border-color: whitesmoke;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 28px;
+    outline: none;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin: 14px 0px 14px 0px;
+}
+
+#results{
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125em;
+    color: white;
+}
+#res{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: solid;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 33px 0px 0px 0px;
+}
+.btn button{
+    display: block;
+    width: 125px;
+    height: 30px;
+    font-size: medium;
+}
+/* .btn:hover{
+    
+} */
